@@ -1,0 +1,98 @@
+# Compiled object files
+*.o
+*.obj
+
+# Precompiled headers
+*.gch
+*.pch
+
+# Compiled binary executables
+*.exe
+*.out
+*.app
+
+# Static and dynamic libs
+*.lib
+*.a
+*.la
+*.lo
+*.so
+*.dll
+*.dylib
+
+# Debug files
+*.dSYM/
+*.stackdump
+*.core
+core.*
+
+# Build directories
+/build/
+/bin/
+/lib/
+/dist/
+/Debug/
+/Release/
+/CMakeFiles/
+/cmake-build-*/
+
+# CMake build files
+CMakeCache.txt
+CMakeFiles
+Makefile
+cmake_install.cmake
+compile_commands.json
+
+# Qt specific
+*.moc
+*.qrc
+*.pro.user
+*.pro.user.*
+*.autosave
+
+# Code::Blocks specific
+*.depend
+*.layout
+*.cbp
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# JetBrains CLion
+.idea/
+cmake-build-*/
+
+# Xcode
+*.xcworkspace
+*.xcuserstate
+*.xcodeproj
+*.xcuserdata
+
+# Mac OS noise
+.DS_Store
+
+# Windows noise
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Backup/swap files
+*~
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Generated docs
+/docs/html/
+/docs/latex/
+/doc/
+
+# Logs
+*.log
+
+# Tests or debug runs
+/test-output/
+*.test-result
+*.tmp-result
